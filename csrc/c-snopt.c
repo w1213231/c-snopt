@@ -258,7 +258,7 @@ snopt_problem* snopt_problem_create
   prob->ne_A = 0;
   
   /*-----------------------------------------------------------------------
-    Initialize with minimal arrays and find min{r, i, c}w's
+    Initialize with minimal arrays and find min{c, i, r}w's
     Let's not output anything to the user's streams yet.
     -----------------------------------------------------------------------*/
   if(snopt_problem_workspace_update(500, 500, 500, prob) == CSNOPT_MEM_ERROR)

@@ -1,7 +1,3 @@
-#ifndef __FORTRAN_IO__
-#include "fortran-io.h"
-#endif
-
 #ifndef __SNOPT__
 #include "snopt.h"
 #endif
@@ -14,8 +10,8 @@
 #define _SPEC_FD_ 22
 
 #define CSNOPT_SUCCESS 0
-#define CSNOPT_MEM_ERROR -1
-#define CSNOPT_FILE_ERROR -2
+#define CSNOPT_MEM_ERROR -20
+#define CSNOPT_FILE_ERROR -21
 #define CSNOPT_SNMEM_ERROR -40
 #define CSNOPT_SNJAC_ERROR -41
 

@@ -73,7 +73,7 @@ extern void FORTRAN_NAME(snmema)
   ftnlen cw_len);
 
 extern int FORTRAN_NAME(snjac)
-  ( integer *iExit, //integer *iprint, integer *isumm,
+  ( integer *iExit,
     integer *nef, integer *n, U_fp userfg,
     integer *iafun, integer *javar, integer *lena, integer *nea, doublereal *a,
     integer *igfun, integer *jgvar, integer *leng, integer *neg,
